@@ -255,7 +255,7 @@ static void UpdateEntityData(uintptr_t localPawn, uint8_t localTeam) {
         struct RawBone { float data[8]; };
         RawBone rawBones[BoneIndex::BONE_COUNT]{};
 
-        uintptr_t boneArray = mem.Read<uintptr_t>(sceneNode + offsets::skeleton::m_pBoneArray);
+        uintptr_t boneArray = mem.Read<uintptr_t>(sceneNode + offsets::skeleton::m_modelState + offsets::skeleton::m_boneArraySubOffset);
         if (boneArray && mem.ReadRaw(boneArray, rawBones, sizeof(rawBones))) {
             ent.bonesValid = true;
             g_debug.bonesValid++;
