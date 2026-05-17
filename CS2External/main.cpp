@@ -731,7 +731,7 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE, LPSTR, int) {
     SetLayeredWindowAttributes(g_overlay, RGB(0, 0, 0), 255, LWA_ALPHA);
     MARGINS margins = { -1, -1, -1, -1 };
     DwmExtendFrameIntoClientArea(g_overlay, &margins);
-    SetWindowDisplayAffinity(g_overlay, WDA_EXCLUDEFROMCAPTURE);
+    SetWindowDisplayAffinity(g_overlay, WDA_NONE);
     ShowWindow(g_overlay, SW_SHOWDEFAULT);
     UpdateWindow(g_overlay);
 
