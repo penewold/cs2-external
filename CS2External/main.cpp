@@ -515,7 +515,7 @@ static void RenderMenu() {
 
         // Brand
         if (g_fontBrand && g_fontBold) {
-            const char* b1 = "MIND";
+            const char* b1 = "SLOP";
             const char* b2 = "EXTERNAL";
             ImVec2 ts1 = g_fontBrand->CalcTextSizeA(g_fontBrand->LegacySize, FLT_MAX, 0, b1);
             ImVec2 ts2 = g_fontBold->CalcTextSizeA(g_fontBold->LegacySize, FLT_MAX, 0, b2);
