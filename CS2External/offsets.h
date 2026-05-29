@@ -9,11 +9,11 @@ namespace offsets {
 
     // Module: client.dll
     namespace client {
-        constexpr std::ptrdiff_t dwEntityList = 0x24D4E80;
-        constexpr std::ptrdiff_t dwLocalPlayerController = 0x230E5C0;
-        constexpr std::ptrdiff_t dwLocalPlayerPawn = 0x205A700;
-        constexpr std::ptrdiff_t dwViewAngles = 0x23444F8;
-        constexpr std::ptrdiff_t dwViewMatrix = 0x2334850;
+        constexpr std::ptrdiff_t dwEntityList = 0x24E5590;
+        constexpr std::ptrdiff_t dwLocalPlayerController = 0x231E700;
+        constexpr std::ptrdiff_t dwLocalPlayerPawn = 0x233F698;
+        constexpr std::ptrdiff_t dwViewAngles = 0x23548B8;
+        constexpr std::ptrdiff_t dwViewMatrix = 0x2344B30;
     }
 
     // C_BaseEntity
@@ -54,7 +54,7 @@ namespace offsets {
         constexpr std::ptrdiff_t m_bIsScoped = 0x1C50;
         constexpr std::ptrdiff_t m_iShotsFired = 0x1C64;
         constexpr std::ptrdiff_t m_ArmorValue = 0x1C7C;
-        constexpr std::ptrdiff_t m_iIDEntIndex = 0x344C;
+        constexpr std::ptrdiff_t m_iIDEntIndex = 0x33FC;
     }
 
     // CCSPlayerController
@@ -68,6 +68,6 @@ namespace offsets {
 
     // Buttons (Module: client.dll)
     namespace buttons {
-        constexpr std::ptrdiff_t jump = 0x204FEA0;
+        constexpr std::ptrdiff_t jump = 0x2063FA0;
     }
 }
