@@ -9,11 +9,11 @@ namespace offsets {
 
     // Module: client.dll
     namespace client {
-        constexpr std::ptrdiff_t dwEntityList = 0x24E6590;
-        constexpr std::ptrdiff_t dwLocalPlayerController = 0x231F700;
-        constexpr std::ptrdiff_t dwLocalPlayerPawn = 0x2340698;
-        constexpr std::ptrdiff_t dwViewAngles = 0x23558B8;
-        constexpr std::ptrdiff_t dwViewMatrix = 0x2345B30;
+        constexpr std::ptrdiff_t dwEntityList = 0x24E76A0;
+        constexpr std::ptrdiff_t dwLocalPlayerController = 0x2320720;
+        constexpr std::ptrdiff_t dwLocalPlayerPawn = 0x2341698;
+        constexpr std::ptrdiff_t dwViewAngles = 0x23568C8;
+        constexpr std::ptrdiff_t dwViewMatrix = 0x2346B30;
     }
 
     // C_BaseEntity
@@ -68,6 +68,6 @@ namespace offsets {
 
     // Buttons (Module: client.dll)
     namespace buttons {
-        constexpr std::ptrdiff_t jump = 0x2064FA0;
+        constexpr std::ptrdiff_t jump = 0x2065FA0;
     }
 }
